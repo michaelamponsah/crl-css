@@ -29,8 +29,8 @@ body {
   margin: 0 auto;
 
   padding: 2em;
-  min-height: 300px;
 }
 .intro-content{
-  min-width: 50%;
+  width: 50%;
+
 }
