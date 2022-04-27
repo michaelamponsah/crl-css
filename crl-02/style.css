@@ -22,8 +22,7 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
-
-.wrapper{
+.wrapper {
   width: 100%;
   background: #23424a;
 }
@@ -31,17 +30,15 @@ body {
   width: 80%;
   max-width: 750px;
   margin: 0 auto;
-  /* background: #000000; */
+}
+.intro-content {
+  width: 50%;
   color: white;
   padding: 50px 0;
 }
-
-.intro-content {
-  width: 50%;
-}
-.sub-content{
+.sub-content {
   color: #000000;
 }
-.sub-content > p{
+.sub-content > p {
   color: #272626;
 }
