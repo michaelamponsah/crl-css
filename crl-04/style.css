@@ -1,0 +1,69 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+}
+.hero-section {
+  background-color: #23424a;
+  width: 100%;
+  color: #fefefe;
+  padding: 100px 0;
+}
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.hero__content {
+  width: 60%;
+}
+.hero__content h1 {
+  font-size: 3rem;
+  padding-bottom: 1em;
+}
+.hero__content p {
+  padding-bottom: 3em;
+}
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23424a;
+  padding: 0.75em 2em;
+  background-color: #38cfd9;
+  display: inline-block;
+  font-weight: 900;
+  border-radius: 50px;
+}
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+
+.row {
+  display: flex;
+  padding: 4em 0;
+}
+.row .col {
+  width: 100%;
+  text-align: center;
+}
+.row .col + .col {
+  margin-left: 0.6em;
+}
+.second-section {
+  padding: 3em 0;
+}
+.second-section .section__heading {
+  font-size: 2.25rem;
+  color: #87629a;
+}
+.third-section {
+  background-color: #136c72;
+  color: #fefefe;
+  padding: 3em 0;
+}
