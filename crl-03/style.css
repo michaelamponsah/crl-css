@@ -29,6 +29,9 @@ body {
 .hero p {
   margin-bottom: 3em;
 }
+.hero__btn-wrapper{
+  margin-top: 3em;
+}
 .btn {
   display: inline-block;
   text-decoration: none;
