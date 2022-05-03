@@ -29,9 +29,13 @@ img {
 /*
 NAVIGATION 
 */
-.nav {
+.header {
   background-color: #136c72;
   padding: 1.5em 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
   text-transform: uppercase;
 }
 .nav__list {
