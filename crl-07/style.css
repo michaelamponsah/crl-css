@@ -20,9 +20,15 @@ img {
   display: flex;
   justify-content: center;
 }
-.p-text{
-    font-size: 1.3rem;
-    text-align: left;
+.p-text {
+  font-size: 1.3rem;
+  text-align: left;
+}
+.col {
+  width: 50%;
+}
+.col + .col {
+  margin-left: 1em;
 }
 
 /* HERO SECTION */
@@ -60,6 +66,19 @@ img {
   text-align: center;
   padding: 1.5em 0;
 }
-.col + .col {
-  margin-left: 1em;
+
+/* SECTION 3 */
+.section-3 {
+  background-color: #222c2a;
+  color: #f3eed9;
+  width: 100%;
+  padding: 3.25em 0;
+}
+.section-image {
+  align-self: flex-start;
+}
+.section-3--title {
+  color: #f3eed9;
+  text-align: left;
+  padding-top: 0;
 }
