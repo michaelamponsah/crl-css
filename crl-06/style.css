@@ -33,7 +33,7 @@ NAVIGATION
   background-color: #136c72;
   padding: 1.5em 0;
 }
-.nav__wrapper{
+.nav__wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -136,4 +136,16 @@ SECTION 2
 }
 .aside__block .section__heading {
   margin-bottom: 1.5em;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 600px) {
+  .row {
+    display: block;
+  }
+  .hero__content,
+  .section-2__content,
+  .aside {
+    width: 100%;
+  }
 }
